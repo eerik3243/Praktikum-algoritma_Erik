@@ -1,0 +1,13 @@
+PROGRAM Konversi_Suhu
+{Program untuk mengkonversi suhu Cescius ke Fahrenheit}
+
+KAMUS DATA:
+ const : real = 9/5
+ const : real = 32
+ C     : real
+ F     : real
+
+ALGORITMA:
+ read (C)
+ F <- (C * 9/5) + 32)
+ write (F)
