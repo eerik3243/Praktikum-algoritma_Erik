@@ -1,0 +1,18 @@
+PROGRAM Hitung_Luas_dan_Biaya_Cat_Tembok_Persegi_Panjang
+{Program untuk menghitung luas dan biaya pengecatan tembok berbentuk persegi panjang}
+
+KAMUS DATA:
+ panjang (m)           : real
+ tinggi (m)            : real
+ harga cat per m² (Rp) : real
+ luas (m)              : real
+ total harga cat (Rp)  : real
+
+ALGORITMA:
+ read (panjang)
+ read (tinggi)
+ read (harga cat per m²)
+ luas <- panjang * tinggi
+ total harga cat <- luas * harga cat per m²
+ write (luas)
+ write (total harga cat)
