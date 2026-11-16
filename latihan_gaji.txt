@@ -1,0 +1,18 @@
+PROGRAM Kalkukator_Gaji
+
+KAMUS:
+ nama_karyawan  : string
+ gaji_pokok     : integer
+ const tunjangan: 20% real
+ T_pendapatan   : integer
+ const pajak    : 10% real
+ gaji_bersih    : integer
+
+ALGORITMA:
+ read(nama_karyawan)
+ read(gaji_pokok)
+
+ T_pendapatan <- gaji_pokok + tunjangan
+ gaji_bersih <- T_pendapatan - pajak
+
+ write(gaji_bersih)
