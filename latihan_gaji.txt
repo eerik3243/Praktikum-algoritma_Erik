@@ -4,9 +4,9 @@ KAMUS:
  nama_karyawan  : string
  gaji_pokok     : integer
  const tunjangan: 20% real
- T_pendapatan   : integer
+ T_pendapatan   : real
  const pajak    : 10% real
- gaji_bersih    : integer
+ gaji_bersih    : real
 
 ALGORITMA:
  read(nama_karyawan)
