@@ -1,0 +1,22 @@
+PROGRAM Split_Bill
+
+KAMUS:
+ nama_meja         : string
+ harga_makanan     : real
+ jumlah_orang      : integer
+ pajak             : real = 0.11
+ biaya_layanan     : real = 0.05
+ total_bayar       : real
+ tagihan_per_orang : real
+
+ALGORITMA:
+ read(nama_meja)
+ read(harga_makanan)
+ read(jumlah_orang)
+
+ total_bayar <- harga_makanan + (pajak * harga_makanan) + (biaya_layanan * harga_makanan)
+ tagihan_per_orang <- total_bayar / jumlah_orang
+
+ write(nama_meja)
+ write(total_bayar)
+ write(tagihan_per_orang)
