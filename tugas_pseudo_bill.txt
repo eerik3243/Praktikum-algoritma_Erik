@@ -1,13 +1,13 @@
 PROGRAM Split_Bill
 
 KAMUS:
- nama_meja         : string
- harga_makanan     : real
- jumlah_orang      : integer
- pajak             : real = 0.11
- biaya_layanan     : real = 0.05
- total_bayar       : real
- tagihan_per_orang : real
+ nama_meja           : string
+ harga_makanan       : real
+ jumlah_orang        : integer
+ const pajak         : real = 0.11
+ const biaya_layanan : real = 0.05
+ total_bayar         : real
+ tagihan_per_orang   : real
 
 ALGORITMA:
  read(nama_meja)
